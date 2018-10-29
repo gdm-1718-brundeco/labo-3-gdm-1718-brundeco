@@ -1,0 +1,194 @@
+body {
+    font-family: 'K2D', sans-serif;
+    margin: 0;
+    height: 100vh;
+    background-image: url('images/home-start-building-bg.png');
+    background-position: center;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding-left: 0; 
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 200%;
+    color: white;
+    display: inline-block;
+}
+.tinder-image {
+    width: 25px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+h3 {
+    margin-top: 100px;
+}
+
+h2 {
+    margin-bottom: 2px;
+    margin-top: 10px;
+}
+
+h5, h4, h6 {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+img {
+    width: 95%;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.bars-image {
+    width: 23px;
+    border-radius: 0px 0px 0px 0px;
+
+}
+
+.center {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.phone {
+    width: 270px;
+    height: 520px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;   
+    border-radius: 10px;
+    margin: 50px auto;
+    background-color: #fff; 
+    box-shadow: 15px 15px 83px #171717;
+    padding-top: 1px;
+}
+
+.nav {
+    height: 10%;
+    width: 95%;
+    margin: 15px auto 27px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#screen {
+    height: 50%;
+    width: 100;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.action {
+    height: 20%;
+    width: 95%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.button-big {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    padding: 5px;
+    text-align: center;
+    transition: 0.1s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#like {
+    background-color: #6eb6ff;
+    transition: 0.1s ease-in-out;
+}
+
+#skip {
+    background-color: #ff005e;
+    transition: 0.1s ease-in-out;
+
+}
+
+#like:hover {
+    background-color: #6e94ff;
+    transition: 0.1s ease-in-out;
+}
+
+#skip:hover {
+    background-color: #ff008d;
+    transition: 0.1s ease-in-out;
+}
+
+.button-small {
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    text-align: center;
+    transition: 0.1s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#profileOverview {
+    width: 100%;
+    height: 100vh;
+    background-color: #ff005e;
+    color: white;
+    position: absolute;
+    margin-top: -50px;
+    display: none;
+    text-align: center;
+}
+
+.divlist a{
+    color: white;
+}
+
+#closeIt {
+    padding: 10px 40px;
+    margin: 30px 0px;
+    color: white;
+    border: none;
+    background-color: rgb(24, 24, 24);
+    border-radius: 40px;
+    border: 2px solid rgb(24, 24, 24);
+    transition: 0.1s ease-in-out;
+}
+
+#closeIt:hover {
+    background-color: #ff005e;
+    border: 2px solid rgb(24, 24, 24);
+    cursor: pointer;
+    color: rgb(24, 24, 24);
+    transition: 0.1s ease-in-out;
+}
+
+#distance {
+    text-align: center;
+    padding: 40px;
+    color: white;
+    margin: 0;
+}

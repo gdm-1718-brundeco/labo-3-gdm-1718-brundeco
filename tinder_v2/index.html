@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=K2D" rel="stylesheet">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet' />
+    <link rel="shortcut icon" href="images/media.png">
+    <title>Tinder</title>
+</head>
+<body>
+    <ul id="profileOverview">
+        <h3>Likes & Dislikes</h3>
+        <button id="closeIt">CLOSE</button>
+    </ul>
+    <header>
+        <h1>Tinder V2</h1>
+        <img src="images/media.png" alt="tinder image" class="tinder-image">
+        <a href=""><img src="images/bars2.svg" alt="bars" class="bars-image"></a>
+
+    </header>
+    <div class="wrapper">
+        <div class="phone">
+            <div id="screen">
+            </div>
+            <div class="action">
+                <a href="" class="button-big" id="skip"><i class="fas fa-times fa-2x"></i></a>
+                <a href="" class="button-big" id="like"><i class="fas fa-heart fa-2x"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="distance-div">
+            <p id="distance"></p>
+    </div>
+    <div id='map' style='width: 100%; height: 300px;'></div>
+
+    <div id="container"></div>
+<script src="script.js"></script>
+<script>// Add geolocate control to the map.
+    map.addControl(new mapboxgl.GeolocateControl({
+      positionOptions: {
+          enableHighAccuracy: true
+      },
+      trackUserLocation: true
+    }));</script>
+</body>
+</html>
